@@ -100,11 +100,14 @@ Each row in the dataset represents a **loan applicant** with multiple attributes
 
 * **Supervised Learning**
 * **Binary Classification**
-* Algorithms used may include:
 
-  * Logistic Regression
-  * Decision Tree
-  * Random Forest (optional)
+### Algorithms Used
+
+* **Logistic Regression** – baseline linear classifier for probability-based loan approval
+* **K-Nearest Neighbors (KNN)** – distance-based model to capture similarity between applicants
+* **Naive Bayes (NB)** – probabilistic model assuming feature independence
+
+These models were trained and evaluated to compare performance and select the most suitable approach for loan approval prediction.
 
 ---
 
@@ -129,4 +132,3 @@ Each row in the dataset represents a **loan applicant** with multiple attributes
 This project is built for **learning, academic, and portfolio purposes** and closely resembles real-world banking ML applications.
 
 ⭐ If you find this project helpful, feel free to star the repository!
-
